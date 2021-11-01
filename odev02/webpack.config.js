@@ -9,10 +9,6 @@ module.exports = {
         libraryTarget: "var",
         library: "Quiz"
     },
-    devServer: {
-        contentBase: './public',
-        injectClient:false
-    },
     optimization: {
         minimize: true,
         minimizer: [new TerserPlugin({
